@@ -1,6 +1,5 @@
 # World Wide Astronomy - WWA
-Current WWA Library release based on :  SOFA Library Issue 2017-04-20 for ANSI C
-Project Description
+Current WWA Library release based on : SOFA Library Issue 2018-01-30 for ANSI C Project.
 
 World Wide Astronomy - WWA
 Set of C# algorithms and procedures that implement standard models used in fundamental astronomy.
@@ -14,6 +13,8 @@ The WWA code does not itself constitute software provided by and/or endorsed by 
 This version is intended to retain identical functionality to the SOFA library, but
 made distinct through different function names (prefixes) and C# language specific
 modifications in code.
+
+WWA is also available as a NuGet package (WWA & WWA.Core).
 
 Contributor
 Attila Abrudán

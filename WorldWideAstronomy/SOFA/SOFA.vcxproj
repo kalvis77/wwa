@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,19 +18,19 @@
     <SccProvider>SAK</SccProvider>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>SOFA</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -88,6 +88,7 @@
     <ClCompile Include="a2af.c" />
     <ClCompile Include="a2tf.c" />
     <ClCompile Include="ab.c" />
+    <ClCompile Include="ae2hd.c" />
     <ClCompile Include="af2a.c" />
     <ClCompile Include="anp.c" />
     <ClCompile Include="anpm.c" />
@@ -194,6 +195,8 @@
     <ClCompile Include="gst06a.c" />
     <ClCompile Include="gst94.c" />
     <ClCompile Include="h2fk5.c" />
+    <ClCompile Include="hd2ae.c" />
+    <ClCompile Include="hd2pa.c" />
     <ClCompile Include="hfk5z.c" />
     <ClCompile Include="icrs2g.c" />
     <ClCompile Include="ir.c" />
@@ -297,6 +300,12 @@
     <ClCompile Include="tdbtt.c" />
     <ClCompile Include="tf2a.c" />
     <ClCompile Include="tf2d.c" />
+    <ClCompile Include="tpors.c" />
+    <ClCompile Include="tporv.c" />
+    <ClCompile Include="tpsts.c" />
+    <ClCompile Include="tpstv.c" />
+    <ClCompile Include="tpxes.c" />
+    <ClCompile Include="tpxev.c" />
     <ClCompile Include="tr.c" />
     <ClCompile Include="trxp.c" />
     <ClCompile Include="trxpv.c" />
