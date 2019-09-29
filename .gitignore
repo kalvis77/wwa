@@ -265,3 +265,12 @@ WorldWideAstronomy/SOFA/apio.c
 /WorldWideAstronomy/WWA/nuget.exe
 /WorldWideAstronomy/WWA.Core.NuGetPackage_upload.bat
 /WorldWideAstronomy/WWA.NuGetPackage_upload.bat
+
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.ionide
